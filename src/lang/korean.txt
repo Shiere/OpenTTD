@@ -250,10 +250,10 @@ STR_TOOLTIP_HSCROLL_BAR_SCROLLS_LIST                            :{BLACK}스크�
 STR_TOOLTIP_DEMOLISH_BUILDINGS_ETC                              :{BLACK}직사각형 모양의 영역에 있는 건물과 땅 등을 부숩니다. CTRL 키를 누른 채로 사용하면 대각선 영역 선택이 가능합니다. SHIFT 키를 누른채로 사용하면 예상 가격을 볼 수 있습니다.
 
 # Show engines button
-STR_SHOW_HIDDEN_ENGINES_VEHICLE_TRAIN                           :{BLACK}숨겨진 차량 보기
-STR_SHOW_HIDDEN_ENGINES_VEHICLE_ROAD_VEHICLE                    :{BLACK}숨겨진 차량 보기
-STR_SHOW_HIDDEN_ENGINES_VEHICLE_SHIP                            :{BLACK}숨겨진 차량 보기
-STR_SHOW_HIDDEN_ENGINES_VEHICLE_AIRCRAFT                        :{BLACK}숨겨진 차량 보기
+STR_SHOW_HIDDEN_ENGINES_VEHICLE_TRAIN                           :{BLACK}숨겨진 열차 보기
+STR_SHOW_HIDDEN_ENGINES_VEHICLE_ROAD_VEHICLE                    :{BLACK}숨겨진 자동차/전차 보기
+STR_SHOW_HIDDEN_ENGINES_VEHICLE_SHIP                            :{BLACK}숨겨진 선박 보기
+STR_SHOW_HIDDEN_ENGINES_VEHICLE_AIRCRAFT                        :{BLACK}숨겨진 항공기 보기
 
 STR_SHOW_HIDDEN_ENGINES_VEHICLE_TRAIN_TOOLTIP                   :{BLACK}이 버튼을 누르면 숨겨진 열차 차량도 구매 목록에 모두 표시합니다.
 STR_SHOW_HIDDEN_ENGINES_VEHICLE_ROAD_VEHICLE_TOOLTIP            :{BLACK}이 버튼을 누르면 숨겨진 자동차/전차 차량도 구매 목록에 모두 표시합니다.
@@ -303,11 +303,11 @@ STR_SORT_BY_RATING_MAX                                          :높은 화물 �
 STR_SORT_BY_RATING_MIN                                          :낮은 화물 등급순
 STR_SORT_BY_ENGINE_ID                                           :차량ID (기본 정렬)
 STR_SORT_BY_COST                                                :가격
-STR_SORT_BY_POWER                                               :힘
+STR_SORT_BY_POWER                                               :출력
 STR_SORT_BY_TRACTIVE_EFFORT                                     :견인력
 STR_SORT_BY_INTRO_DATE                                          :도입 날짜
 STR_SORT_BY_RUNNING_COST                                        :유지비
-STR_SORT_BY_POWER_VS_RUNNING_COST                               :유지비 분의 힘
+STR_SORT_BY_POWER_VS_RUNNING_COST                               :유지비 분의 출력
 STR_SORT_BY_CARGO_CAPACITY                                      :화물 수송량
 STR_SORT_BY_RANGE                                               :항속거리
 STR_SORT_BY_POPULATION                                          :인구
@@ -315,7 +315,7 @@ STR_SORT_BY_RATING                                              :등급
 
 # Tooltips for the main toolbar
 STR_TOOLBAR_TOOLTIP_PAUSE_GAME                                  :{BLACK}게임을 일시 정지합니다.
-STR_TOOLBAR_TOOLTIP_FORWARD                                     :{BLACK}게임 시간을 빠르게 가도록 합니다.
+STR_TOOLBAR_TOOLTIP_FORWARD                                     :{BLACK}게임 시간을 빠르게 흐르도록 합니다.
 STR_TOOLBAR_TOOLTIP_OPTIONS                                     :{BLACK}게임 기본 설정을 엽니다.
 STR_TOOLBAR_TOOLTIP_SAVE_GAME_ABANDON_GAME                      :{BLACK}게임을 저장하거나, 그만두거나, 게임을 종료합니다
 STR_TOOLBAR_TOOLTIP_DISPLAY_MAP                                 :{BLACK}지도, 외부 화면, 팻말 목록을 보여줍니다.
@@ -339,7 +339,7 @@ STR_TOOLBAR_TOOLTIP_BUILD_RAILROAD_TRACK                        :{BLACK}철도 �
 STR_TOOLBAR_TOOLTIP_BUILD_ROADS                                 :{BLACK}도로 시설을 건설합니다.
 STR_TOOLBAR_TOOLTIP_BUILD_SHIP_DOCKS                            :{BLACK}항만 시설을 건설합니다.
 STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}항공 시설을 건설합니다.
-STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}땅 올리기/내리기, 나무 심기 등의 일를 하기 위한 지형편집창을 엽니다.
+STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}지형 편집창을 열어 땅 올리기/내리기, 나무 심기등을 합니다.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}효과음/배경 음악 창을 엽니다.
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}최근 메시지/뉴스 기록이나 메시지 설정을 엽니다.
 STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}지역 정보, 콘솔, 스크립트 디버그, 스크린샷, OpenTTD에 대한 정보를 보여줍니다.
@@ -351,7 +351,7 @@ STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}시나리오 에디터
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}시작년도를 1년 앞당깁니다.
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}시작년도를 1년 늦춥니다.
-STR_SCENEDIT_TOOLBAR_TOOLTIP_SET_DATE                           :{BLACK}시작 연도를 입력하세요.
+STR_SCENEDIT_TOOLBAR_TOOLTIP_SET_DATE                           :{BLACK}시작년도를 입력하세요.
 STR_SCENEDIT_TOOLBAR_TOOLTIP_DISPLAY_MAP_TOWN_DIRECTORY         :{BLACK}지도, 도시 목록 보여주기
 STR_SCENEDIT_TOOLBAR_LANDSCAPE_GENERATION                       :{BLACK}지형을 생성합니다.
 STR_SCENEDIT_TOOLBAR_TOWN_GENERATION                            :{BLACK}도시를 생성합니다.
@@ -381,7 +381,7 @@ STR_SETTINGS_MENU_TOWN_NAMES_DISPLAYED                          :도시 이름�
 STR_SETTINGS_MENU_STATION_NAMES_DISPLAYED                       :역 이름을 표시함
 STR_SETTINGS_MENU_WAYPOINTS_DISPLAYED                           :경유지의 이름을 표시함
 STR_SETTINGS_MENU_SIGNS_DISPLAYED                               :팻말을 표시함
-STR_SETTINGS_MENU_SHOW_COMPETITOR_SIGNS                         :경쟁사의 팻말과 역 이름을 표시
+STR_SETTINGS_MENU_SHOW_COMPETITOR_SIGNS                         :경쟁사의 팻말과 역 이름을 표시함
 STR_SETTINGS_MENU_FULL_ANIMATION                                :완전한 애니메이션
 STR_SETTINGS_MENU_FULL_DETAIL                                   :그래픽을 아주 상세하게
 STR_SETTINGS_MENU_TRANSPARENT_BUILDINGS                         :건물 숨기기
@@ -604,7 +604,7 @@ STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_DIRECTOR                   :{G=m}임원
 STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_CHIEF_EXECUTIVE            :{G=m}최고 경영자
 STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_CHAIRMAN                   :{G=m}사장
 STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_PRESIDENT                  :{G=m}회장
-STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_TYCOON                     :{G=m}타이쿤!
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_TYCOON                     :{G=m}갑부!
 
 # Performance detail window
 STR_PERFORMANCE_DETAIL                                          :{WHITE}상세 성취도
@@ -652,7 +652,7 @@ STR_MUSIC_RULER_MARKER                                          :{TINY_FONT}{BLA
 STR_MUSIC_TRACK_NONE                                            :{TINY_FONT}{DKGREEN}--
 STR_MUSIC_TRACK_DIGIT                                           :{TINY_FONT}{DKGREEN}{ZEROFILL_NUM}
 STR_MUSIC_TITLE_NONE                                            :{TINY_FONT}{DKGREEN}------
-STR_MUSIC_TITLE_NOMUSIC                                         :{TINY_FONT}{DKGREEN}사용 가능한 음악 없음
+STR_MUSIC_TITLE_NOMUSIC                                         :{TINY_FONT}{DKGREEN}재생 가능한 음악 없음
 STR_MUSIC_TITLE_NAME                                            :{TINY_FONT}{DKGREEN}"{STRING}"
 STR_MUSIC_TRACK                                                 :{TINY_FONT}{BLACK}트랙
 STR_MUSIC_XTITLE                                                :{TINY_FONT}{BLACK}제목
@@ -694,7 +694,7 @@ STR_HIGHSCORE_PERFORMANCE_TITLE_INDUSTRIALIST                   :{G=f}기업가
 STR_HIGHSCORE_PERFORMANCE_TITLE_CAPITALIST                      :{G=f}자본가
 STR_HIGHSCORE_PERFORMANCE_TITLE_MAGNATE                         :{G=f}권력자
 STR_HIGHSCORE_PERFORMANCE_TITLE_MOGUL                           :{G=m}거물
-STR_HIGHSCORE_PERFORMANCE_TITLE_TYCOON_OF_THE_CENTURY           :{G=m}금세기의 타이쿤!
+STR_HIGHSCORE_PERFORMANCE_TITLE_TYCOON_OF_THE_CENTURY           :{G=m}금세기의 갑부!
 STR_HIGHSCORE_NAME                                              :{PRESIDENT_NAME}, {COMPANY}
 STR_HIGHSCORE_STATS                                             :{BIG_FONT}'{STRING}'   ({COMMA})
 STR_HIGHSCORE_COMPANY_ACHIEVES_STATUS                           :{BIG_FONT}{BLACK}{COMPANY} 회사가 '{STRING}' 등급을 달성했습니다!
@@ -750,7 +750,7 @@ STR_SMALLMAP_LEGENDA_INDUSTRIES                                 :{TINY_FONT}{BLA
 STR_SMALLMAP_LEGENDA_DESERT                                     :{TINY_FONT}{BLACK}사막
 STR_SMALLMAP_LEGENDA_SNOW                                       :{TINY_FONT}{BLACK}눈
 
-STR_SMALLMAP_TOOLTIP_TOGGLE_TOWN_NAMES_ON_OFF                   :{BLACK}도시 이름을 보이거나 숨깁니다.
+STR_SMALLMAP_TOOLTIP_TOGGLE_TOWN_NAMES_ON_OFF                   :{BLACK}도시 이름을 보이게 하거나 숨깁니다.
 STR_SMALLMAP_CENTER                                             :{BLACK}소형지도 내부창의 위치를 현재 게임 화면 위치로 이동시킵니다.
 STR_SMALLMAP_INDUSTRY                                           :{TINY_FONT}{STRING} ({NUM})
 STR_SMALLMAP_LINKSTATS                                          :{TINY_FONT}{STRING}
@@ -802,11 +802,11 @@ STR_NEWS_DISASTER_AIRPLANE_OIL_REFINERY                         :{BIG_FONT}{BLAC
 STR_NEWS_DISASTER_HELICOPTER_FACTORY                            :{BIG_FONT}{BLACK}{TOWN} 근처의 공장이 의심스러운 정황으로 인해 파괴되었습니다!
 STR_NEWS_DISASTER_BIG_UFO                                       :{BIG_FONT}{BLACK}UFO가 {TOWN} 근처에 착륙했습니다!
 STR_NEWS_DISASTER_COAL_MINE_SUBSIDENCE                          :{BIG_FONT}{BLACK}{TOWN} 근처 탄광이 함몰되어 그 파괴의 흔적을 남겼습니다!
-STR_NEWS_DISASTER_FLOOD_VEHICLE                                 :{BIG_FONT}{BLACK}홍수 발생!{}최소 {COMMA}명의 실종자가 발생하였으며, 범람 후에 사상자도 발생할 것입니다!
+STR_NEWS_DISASTER_FLOOD_VEHICLE                                 :{BIG_FONT}{BLACK}홍수 발생!{}최소 {COMMA}명의 실종자가 발생하였으며, 범람 후에 사상자도 발생할 것으로 보입니다!
 
-STR_NEWS_COMPANY_IN_TROUBLE_TITLE                               :{BIG_FONT}{BLACK}운송회사에 문제가 생김!
+STR_NEWS_COMPANY_IN_TROUBLE_TITLE                               :{BIG_FONT}{BLACK}운송회사에 문제 발생!
 STR_NEWS_COMPANY_IN_TROUBLE_DESCRIPTION                         :{BIG_FONT}{BLACK}성취도를 바로 올리지 못하면 {STRING}{G 0 "은" "는"} 팔리거나 파산할 것입니다!
-STR_NEWS_COMPANY_MERGER_TITLE                                   :{BIG_FONT}{BLACK}운송 회사 합병!
+STR_NEWS_COMPANY_MERGER_TITLE                                   :{BIG_FONT}{BLACK}운송회사 합병!
 STR_NEWS_COMPANY_MERGER_DESCRIPTION                             :{BIG_FONT}{BLACK}{STRING} 회사가 {STRING} 회사에게 {CURRENCY_LONG}의 가격으로 인수합병되었습니다!
 STR_NEWS_COMPANY_BANKRUPT_TITLE                                 :{BIG_FONT}{BLACK}파산!
 STR_NEWS_COMPANY_BANKRUPT_DESCRIPTION                           :{BIG_FONT}{BLACK}{STRING} 회사가 채권자에 의해 모든 자산이 팔려 파산하였습니다!
@@ -994,7 +994,7 @@ STR_GAME_OPTIONS_GUI_ZOOM_DROPDOWN_4X_ZOOM                      :4배 크기
 
 STR_GAME_OPTIONS_BASE_GRF                                       :{BLACK}기본 그래픽 세트
 STR_GAME_OPTIONS_BASE_GRF_TOOLTIP                               :{BLACK}사용하실 기본 그래픽을 선택하세요.
-STR_GAME_OPTIONS_BASE_GRF_STATUS                                :{RED}{NUM}개 파일 손실
+STR_GAME_OPTIONS_BASE_GRF_STATUS                                :{RED}{NUM}개의 파일이 손상되거나 손실되었습니다.
 STR_GAME_OPTIONS_BASE_GRF_DESCRIPTION_TOOLTIP                   :{BLACK}기본 그래픽 세트에 대한 추가 정보를 봅니다.
 
 STR_GAME_OPTIONS_BASE_SFX                                       :{BLACK}기본 효과음 세트
@@ -1013,8 +1013,8 @@ STR_ERROR_FULLSCREEN_FAILED                                     :{WHITE}풀스�
 
 STR_CURRENCY_WINDOW                                             :{WHITE}사용자 화폐 단위
 STR_CURRENCY_EXCHANGE_RATE                                      :{LTBLUE}환율: {ORANGE}{CURRENCY_LONG} = {COMMA}파운드
-STR_CURRENCY_DECREASE_EXCHANGE_RATE_TOOLTIP                     :{BLACK}(1 파운드(£)에 대한) 사용자 화폐 단위양을 감소시킵니다.
-STR_CURRENCY_INCREASE_EXCHANGE_RATE_TOOLTIP                     :{BLACK}(1 파운드(£)에 대한) 사용자 화폐 단위양을 증가시킵니다.
+STR_CURRENCY_DECREASE_EXCHANGE_RATE_TOOLTIP                     :{BLACK}(1 파운드(£)에 대한) 사용자 화폐 단위량을 감소시킵니다.
+STR_CURRENCY_INCREASE_EXCHANGE_RATE_TOOLTIP                     :{BLACK}(1 파운드(£)에 대한) 사용자 화폐 단위량을 증가시킵니다.
 STR_CURRENCY_SET_EXCHANGE_RATE_TOOLTIP                          :{BLACK}1 파운드(£)에 해당하는 사용자 화폐 단위의 환율을 설정하십시오.
 
 STR_CURRENCY_SEPARATOR                                          :{LTBLUE}단위 구분: {ORANGE}{STRING}
