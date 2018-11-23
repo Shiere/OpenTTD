@@ -3724,8 +3724,8 @@ STR_VEHICLE_INFO_AGE_RED                                        :{RED}{COMMA}년
 STR_VEHICLE_INFO_MAX_SPEED                                      :{BLACK}최고 속력: {LTBLUE}{VELOCITY}
 STR_VEHICLE_INFO_MAX_SPEED_TYPE                                 :{BLACK}최고 속력: {LTBLUE}{VELOCITY} {BLACK}항공기 종류: {LTBLUE}{STRING}
 STR_VEHICLE_INFO_MAX_SPEED_TYPE_RANGE                           :{BLACK}최고 속력: {LTBLUE}{VELOCITY} {BLACK}항공기 종류: {LTBLUE}{STRING} {BLACK}항속거리: {LTBLUE}{COMMA}칸
-STR_VEHICLE_INFO_WEIGHT_POWER_MAX_SPEED                         :{BLACK}무게: {LTBLUE}{WEIGHT_SHORT} {BLACK}힘: {LTBLUE}{POWER}{BLACK} 최고 속력: {LTBLUE}{VELOCITY}
-STR_VEHICLE_INFO_WEIGHT_POWER_MAX_SPEED_MAX_TE                  :{BLACK}무게: {LTBLUE}{WEIGHT_SHORT} {BLACK}힘: {LTBLUE}{POWER}{BLACK} 최고 속력: {LTBLUE}{VELOCITY} {BLACK}최고 견인력: {LTBLUE}{FORCE}
+STR_VEHICLE_INFO_WEIGHT_POWER_MAX_SPEED                         :{BLACK}무게: {LTBLUE}{WEIGHT_SHORT} {BLACK}출력: {LTBLUE}{POWER}{BLACK} 최고 속력: {LTBLUE}{VELOCITY}
+STR_VEHICLE_INFO_WEIGHT_POWER_MAX_SPEED_MAX_TE                  :{BLACK}무게: {LTBLUE}{WEIGHT_SHORT} {BLACK}출력: {LTBLUE}{POWER}{BLACK} 최고 속력: {LTBLUE}{VELOCITY} {BLACK}최고 견인력: {LTBLUE}{FORCE}
 
 STR_VEHICLE_INFO_PROFIT_THIS_YEAR_LAST_YEAR                     :{BLACK}올해 수익: {LTBLUE}{CURRENCY_LONG} (작년: {CURRENCY_LONG})
 STR_VEHICLE_INFO_RELIABILITY_BREAKDOWNS                         :{BLACK}신뢰도: {LTBLUE}{COMMA}%  {BLACK}최근 점검 이후의 고장: {LTBLUE}{COMMA}
@@ -3973,7 +3973,7 @@ STR_TIMETABLE_TRAVEL_FOR_SPEED_ESTIMATED                        :최대 {1:VELOC
 STR_TIMETABLE_STAY_FOR_ESTIMATED                                :({STRING} 동안 정차, 시간표 작성 안 됨)
 STR_TIMETABLE_AND_TRAVEL_FOR_ESTIMATED                          :({STRING} 동안 운행, 시간표 작성 안 됨)
 STR_TIMETABLE_STAY_FOR                                          :& {STRING} 동안 정차
-STR_TIMETABLE_AND_TRAVEL_FOR                                    :& 다음 목적지({STRING})로 이동
+STR_TIMETABLE_AND_TRAVEL_FOR                                    :& 다음 목적지인 ({STRING}{G 0 "으" ""})로 이동
 STR_TIMETABLE_DAYS                                              :{COMMA}일
 STR_TIMETABLE_TICKS                                             :{COMMA}틱
 
@@ -4258,7 +4258,7 @@ STR_ERROR_CAN_ONLY_BE_BUILT_IN_RAINFOREST                       :{WHITE}... 열�
 STR_ERROR_CAN_ONLY_BE_BUILT_IN_DESERT                           :{WHITE}... 사막 지역에만 건설할 수 있습니다!
 STR_ERROR_CAN_ONLY_BE_BUILT_IN_TOWNS                            :{WHITE}... 도시에만 건설할 수 있습니다! (집이 있는 위치에만)
 STR_ERROR_CAN_ONLY_BE_BUILT_NEAR_TOWN_CENTER                    :{WHITE}... 도시의 가운데 근처에만 설치할 수 있습니다.
-STR_ERROR_CAN_ONLY_BE_BUILT_IN_LOW_AREAS                        :{WHITE}... 낮은 지역에만 건설할 수 있습니다!
+STR_ERROR_CAN_ONLY_BE_BUILT_IN_LOW_AREAS                        :{WHITE}... 고도가 낮은 지역에만 건설할 수 있습니다!
 STR_ERROR_CAN_ONLY_BE_POSITIONED                                :{WHITE}... 지도 가장자리에만 위치할 수 있습니다.
 STR_ERROR_FOREST_CAN_ONLY_BE_PLANTED                            :{WHITE}... 숲은 만년설 높이 이상의 고도에만 심을 수 있습니다.
 STR_ERROR_CAN_ONLY_BE_BUILT_ABOVE_SNOW_LINE                     :{WHITE}... 만년설 고도 위에만 지을 수 있습니다
@@ -4332,21 +4332,21 @@ STR_ERROR_CAN_T_RENAME_DEPOT                                    :{WHITE}차량�
 
 STR_ERROR_TRAIN_MUST_BE_STOPPED_INSIDE_DEPOT                    :{WHITE}... 차량기지 안에 정지되어 있어야 합니다
 STR_ERROR_ROAD_VEHICLE_MUST_BE_STOPPED_INSIDE_DEPOT             :{WHITE}... 차고지 안에 정지해 있어야 합니다
-STR_ERROR_SHIP_MUST_BE_STOPPED_INSIDE_DEPOT                     :{WHITE}... 정박소 내에 정지해 있어야 합니다!
-STR_ERROR_AIRCRAFT_MUST_BE_STOPPED_INSIDE_HANGAR                :{WHITE}... 격납고 내에서 정지되어 있어야합 니다
+STR_ERROR_SHIP_MUST_BE_STOPPED_INSIDE_DEPOT                     :{WHITE}... 정박소 내에 정지해 있어야 합니다
+STR_ERROR_AIRCRAFT_MUST_BE_STOPPED_INSIDE_HANGAR                :{WHITE}... 격납고 내에서 정지되어 있어야 합니다
 
 STR_ERROR_TRAINS_CAN_ONLY_BE_ALTERED_INSIDE_A_DEPOT             :{WHITE}차량기지 내에서 정지한 경우에만 개조할 수 있습니다
 STR_ERROR_TRAIN_TOO_LONG                                        :{WHITE}열차가 너무 깁니다!
 STR_ERROR_CAN_T_REVERSE_DIRECTION_RAIL_VEHICLE                  :{WHITE}차량의 방향을 뒤집을 수 없습니다...
 STR_ERROR_CAN_T_REVERSE_DIRECTION_RAIL_VEHICLE_MULTIPLE_UNITS   :{WHITE}여러 대가 연결된 차량은 뒤집을 수 없습니다...
-STR_ERROR_INCOMPATIBLE_RAIL_TYPES                               :알맞지 않은 철도 타입
+STR_ERROR_INCOMPATIBLE_RAIL_TYPES                               :철도 타입이 잘못되었습니다.
 
 STR_ERROR_CAN_T_MOVE_VEHICLE                                    :{WHITE}차량을 옮길 수 없습니다...
-STR_ERROR_REAR_ENGINE_FOLLOW_FRONT                              :{WHITE}뒷쪽 기관차는 앞쪽것을 항상 따라다닐 것입니다.
+STR_ERROR_REAR_ENGINE_FOLLOW_FRONT                              :{WHITE}뒷쪽 기관차는 앞차를 항상 따라다녀야 합니다
 STR_ERROR_UNABLE_TO_FIND_ROUTE_TO                               :{WHITE}근처에 있는 차량기지로 가는 길을 찾을 수 없습니다
 STR_ERROR_UNABLE_TO_FIND_LOCAL_DEPOT                            :{WHITE}근처에 있는 차고지를 찾을 수 없습니다
 
-STR_ERROR_DEPOT_WRONG_DEPOT_TYPE                                :잘못된 차량기지 종류
+STR_ERROR_DEPOT_WRONG_DEPOT_TYPE                                :차량기지 종류가 잘못되었습니다.
 
 # Autoreplace related errors
 STR_ERROR_TRAIN_TOO_LONG_AFTER_REPLACEMENT                      :{WHITE}{VEHICLE} : 교체된지 너무 오래되었습니다.
@@ -4401,11 +4401,11 @@ STR_ERROR_CAN_T_PLANT_TREE_HERE                                 :{WHITE}여기�
 STR_ERROR_CAN_T_BUILD_BRIDGE_HERE                               :{WHITE}여기에 다리를 지을 수 없습니다...
 STR_ERROR_MUST_DEMOLISH_BRIDGE_FIRST                            :{WHITE}다리를 먼저 제거하십시오
 STR_ERROR_CAN_T_START_AND_END_ON                                :{WHITE}같은 위치에서 시작하고 끝낼 수 없습니다
-STR_ERROR_BRIDGEHEADS_NOT_SAME_HEIGHT                           :{WHITE}다리는 같은 높이를 연결해야 합니다
-STR_ERROR_BRIDGE_TOO_LOW_FOR_TERRAIN                            :{WHITE}그 지형은 다리를 건설하기에 너무 낮습니다
-STR_ERROR_BRIDGE_TOO_HIGH_FOR_TERRAIN                           :{WHITE}이 지형에 다리를 설치하기에는 고도가 너무 높습니다.
+STR_ERROR_BRIDGEHEADS_NOT_SAME_HEIGHT                           :{WHITE}다리는 같은 고도에서 연결해야 합니다
+STR_ERROR_BRIDGE_TOO_LOW_FOR_TERRAIN                            :{WHITE}이 지형에 다리를 건설하기엔 고도가 너무 낮습니다
+STR_ERROR_BRIDGE_TOO_HIGH_FOR_TERRAIN                           :{WHITE}이 지형에 다리를 설치하기엔 고도가 너무 높습니다.
 STR_ERROR_START_AND_END_MUST_BE_IN                              :{WHITE}시작과 끝은 한 줄 위에 있어야 합니다
-STR_ERROR_ENDS_OF_BRIDGE_MUST_BOTH                              :{WHITE}... 다리의 양 끝은 모두 땅이어야합니다.
+STR_ERROR_ENDS_OF_BRIDGE_MUST_BOTH                              :{WHITE}... 다리의 양 끝은 모두 육지여야 합니다.
 STR_ERROR_BRIDGE_TOO_LONG                                       :{WHITE}... 다리가 너무 깁니다!
 STR_ERROR_BRIDGE_THROUGH_MAP_BORDER                             :{WHITE}다리 끝이 지도 밖을 넘어갑니다
 
@@ -4414,9 +4414,9 @@ STR_ERROR_CAN_T_BUILD_TUNNEL_HERE                               :{WHITE}여기�
 STR_ERROR_SITE_UNSUITABLE_FOR_TUNNEL                            :{WHITE}터널 입구에 알맞지 않은 장소입니다
 STR_ERROR_MUST_DEMOLISH_TUNNEL_FIRST                            :{WHITE}터널을 먼저 제거하십시오
 STR_ERROR_ANOTHER_TUNNEL_IN_THE_WAY                             :{WHITE}도중에 다른 터널이 있습니다
-STR_ERROR_TUNNEL_THROUGH_MAP_BORDER                             :{WHITE}터널이 지도 맨끝을 통과합니다
+STR_ERROR_TUNNEL_THROUGH_MAP_BORDER                             :{WHITE}터널이 지도 밖을 넘어갑니다
 STR_ERROR_UNABLE_TO_EXCAVATE_LAND                               :{WHITE}지형 문제로 터널의 반대쪽 출구를 만들 수 없습니다
-STR_ERROR_TUNNEL_TOO_LONG                                       :{WHITE}... 터널이 너무 깁니다!
+STR_ERROR_TUNNEL_TOO_LONG                                       :{WHITE}... 터널이 너무 깁니다
 
 # Object related errors
 STR_ERROR_TOO_MANY_OBJECTS                                      :{WHITE}... 오브젝트가 너무 많습니다.
@@ -4437,7 +4437,7 @@ STR_ERROR_GROUP_CAN_T_ADD_SHARED_VEHICLE                        :{WHITE}이 그�
 
 # Generic vehicle errors
 STR_ERROR_TRAIN_IN_THE_WAY                                      :{WHITE}중간에 열차가 있습니다
-STR_ERROR_ROAD_VEHICLE_IN_THE_WAY                               :{WHITE}중간에 차량이 있습니다.
+STR_ERROR_ROAD_VEHICLE_IN_THE_WAY                               :{WHITE}중간에 차량이 있습니다
 STR_ERROR_SHIP_IN_THE_WAY                                       :{WHITE}중간에 선박이 있습니다
 STR_ERROR_AIRCRAFT_IN_THE_WAY                                   :{WHITE}중간에 항공기가 있습니다
 
@@ -4476,10 +4476,10 @@ STR_ERROR_CAN_T_SELL_ROAD_VEHICLE                               :{WHITE}차량�
 STR_ERROR_CAN_T_SELL_SHIP                                       :{WHITE}선박을 팔 수 없습니다...
 STR_ERROR_CAN_T_SELL_AIRCRAFT                                   :{WHITE}항공기를 팔 수 없습니다...
 
-STR_ERROR_RAIL_VEHICLE_NOT_AVAILABLE                            :{WHITE}이 열차는 사용할 수 없는 상태입니다.
-STR_ERROR_ROAD_VEHICLE_NOT_AVAILABLE                            :{WHITE}이 차량은 사용할 수 없는 상태입니다.
-STR_ERROR_SHIP_NOT_AVAILABLE                                    :{WHITE}이 선박은 사용할 수 없는 상태입니다.
-STR_ERROR_AIRCRAFT_NOT_AVAILABLE                                :{WHITE}이 항공기는 사용할 수 없는 상태입니다.
+STR_ERROR_RAIL_VEHICLE_NOT_AVAILABLE                            :{WHITE}이 열차는 사용할 수 없습니다.
+STR_ERROR_ROAD_VEHICLE_NOT_AVAILABLE                            :{WHITE}이 차량은 사용할 수 없습니다.
+STR_ERROR_SHIP_NOT_AVAILABLE                                    :{WHITE}이 선박은 사용할 수 없습니다.
+STR_ERROR_AIRCRAFT_NOT_AVAILABLE                                :{WHITE}이 항공기는 사용할 수 없습니다.
 
 STR_ERROR_TOO_MANY_VEHICLES_IN_GAME                             :{WHITE}게임에 차량이 너무 많습니다!
 STR_ERROR_CAN_T_CHANGE_SERVICING                                :{WHITE}정비 간격 설정을 바꿀 수 없습니다...
@@ -4547,34 +4547,34 @@ STR_BASEMUSIC_NONE_DESCRIPTION                                  :실제 음악�
 
 ##id 0x2000
 # Town building names
-STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1                      :고층 사무 구획
-STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_1                           :사무 구획
-STR_TOWN_BUILDING_NAME_SMALL_BLOCK_OF_FLATS_1                   :소규모의 아파트 구획
+STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1                      :고층 사무공간
+STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_1                           :사무공간
+STR_TOWN_BUILDING_NAME_SMALL_BLOCK_OF_FLATS_1                   :빌라
 STR_TOWN_BUILDING_NAME_CHURCH_1                                 :교회
-STR_TOWN_BUILDING_NAME_LARGE_OFFICE_BLOCK_1                     :대규모 사무 구획
+STR_TOWN_BUILDING_NAME_LARGE_OFFICE_BLOCK_1                     :대규모 사무공간
 STR_TOWN_BUILDING_NAME_TOWN_HOUSES_1                            :도시 가구
 STR_TOWN_BUILDING_NAME_HOTEL_1                                  :호텔
 STR_TOWN_BUILDING_NAME_STATUE_1                                 :동상
 STR_TOWN_BUILDING_NAME_FOUNTAIN_1                               :분수
 STR_TOWN_BUILDING_NAME_PARK_1                                   :공원
-STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_2                           :사무 구획
+STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_2                           :사무공간
 STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1                      :상점과 사무실
-STR_TOWN_BUILDING_NAME_MODERN_OFFICE_BUILDING_1                 :현대적 사무 건물
+STR_TOWN_BUILDING_NAME_MODERN_OFFICE_BUILDING_1                 :현대적 사무실
 STR_TOWN_BUILDING_NAME_WAREHOUSE_1                              :창고
-STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_3                           :사무 구획
+STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_3                           :사무공간
 STR_TOWN_BUILDING_NAME_STADIUM_1                                :운동장
 STR_TOWN_BUILDING_NAME_OLD_HOUSES_1                             :오래된 집
 STR_TOWN_BUILDING_NAME_COTTAGES_1                               :아담한 집
 STR_TOWN_BUILDING_NAME_HOUSES_1                                 :집
 STR_TOWN_BUILDING_NAME_FLATS_1                                  :아파트
-STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_2                      :고층 사무 구획
+STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_2                      :고층 사무공간
 STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_2                      :상점과 사무실
 STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_3                      :상점과 사무실
-STR_TOWN_BUILDING_NAME_THEATER_1                                :영화관
-STR_TOWN_BUILDING_NAME_STADIUM_2                                :운동장
+STR_TOWN_BUILDING_NAME_THEATER_1                                :극장
+STR_TOWN_BUILDING_NAME_STADIUM_2                                :경기장
 STR_TOWN_BUILDING_NAME_OFFICES_1                                :사무실
 STR_TOWN_BUILDING_NAME_HOUSES_2                                 :집
-STR_TOWN_BUILDING_NAME_CINEMA_1                                 :시네마
+STR_TOWN_BUILDING_NAME_CINEMA_1                                 :영화관
 STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1                          :쇼핑몰
 STR_TOWN_BUILDING_NAME_IGLOO_1                                  :이글루
 STR_TOWN_BUILDING_NAME_TEPEES_1                                 :천막
@@ -4602,7 +4602,7 @@ STR_INDUSTRY_NAME_GOLD_MINE                                     :{G=m}금광
 STR_INDUSTRY_NAME_BANK_TROPIC_ARCTIC                            :{G=m}은행
 STR_INDUSTRY_NAME_DIAMOND_MINE                                  :{G=m}다이아몬드 광산
 STR_INDUSTRY_NAME_IRON_ORE_MINE                                 :{G=m}철 광산
-STR_INDUSTRY_NAME_FRUIT_PLANTATION                              :{G=m}과일 농장
+STR_INDUSTRY_NAME_FRUIT_PLANTATION                              :{G=m}과수원
 STR_INDUSTRY_NAME_RUBBER_PLANTATION                             :{G=m}고무 농장
 STR_INDUSTRY_NAME_WATER_SUPPLY                                  :{G=f}상수도
 STR_INDUSTRY_NAME_WATER_TOWER                                   :{G=m}급수탑
